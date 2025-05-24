@@ -143,8 +143,28 @@ const CENTROID_CACHE_SIZE: usize = 256;     // Index cache capacity
 
 ## License
 
-[Specify license here]
+[MIT License](LICENSE)
 
 ## Contributing
 
-[Contribution guidelines here]
+Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate and follow the existing code style. When submitting a PR:
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+For bug reports, please include:
+- A clear description of the issue
+- Steps to reproduce
+- Expected behavior
+- Actual behavior
+- Any relevant error messages or logs
+
+For feature requests, please include:
+- A clear description of the proposed feature
+- Use cases and examples
+- Any potential implementation considerations
