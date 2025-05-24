@@ -1,10 +1,10 @@
-# TurboPuffer Rust
+# VBfold Rust
 
 A high-performance vector database implementation in Rust, designed as a compatible alternative to TurboPuffer with significant performance improvements for concurrent workloads.
 
 ## Overview
 
-TurboPuffer Rust is a memory-based vector database that provides fast similarity search capabilities for high-dimensional vectors. Built from the ground up in Rust, it addresses concurrency issues found in other implementations while delivering exceptional performance for both ingestion and query operations.
+VBfold Rust is a memory-based vector database that provides fast similarity search capabilities for high-dimensional vectors. Built from the ground up in Rust, it addresses concurrency issues found in other implementations while delivering exceptional performance for both ingestion and query operations.
 
 ## Performance Characteristics
 
@@ -35,7 +35,7 @@ TurboPuffer Rust is a memory-based vector database that provides fast similarity
 - **Parallel processing**: Rayon-based parallelization for compute-intensive operations
 
 ### API Compatibility
-- RESTful HTTP API compatible with TurboPuffer clients
+- RESTful HTTP API compatible with VBfold clients
 - JSON-based request/response format
 - Support for vector, text, and hybrid search modes
 - Metadata filtering capabilities
@@ -49,7 +49,7 @@ TurboPuffer Rust is a memory-based vector database that provides fast similarity
 ### Installation and Running
 ```bash
 git clone <repository-url>
-cd turbopuffer-rust
+cd vbfold-rust
 cargo run --release
 ```
 
@@ -123,9 +123,9 @@ const CENTROID_CACHE_SIZE: usize = 256;     // Index cache capacity
 - K-means index rebuild required for significant data changes
 - Limited text search functionality compared to dedicated text search engines
 
-## Comparison with TurboPuffer
+## Comparison with VBfold
 
-| Metric | TurboPuffer Rust | TurboPuffer Cloud |
+| Metric | VBfold Rust | TurboPuffer Cloud |
 |--------|------------------|-------------------|
 | Cold query (1M docs) | 31ms | 402ms |
 | Warm query (1M docs) | 33ms | 16ms |
